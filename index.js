@@ -1,6 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
+
 const token = "6877036574:AAH09MxxWf4Lzesz_6EXnhUdsFM1dDim9XE";
 const webAppUrl = "https://tg-web-app-bot.netlify.app"
 // Create a bot that uses 'polling' to fetch new updates
